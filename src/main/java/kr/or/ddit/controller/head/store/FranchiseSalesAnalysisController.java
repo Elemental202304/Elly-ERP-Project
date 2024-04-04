@@ -63,6 +63,12 @@ public class FranchiseSalesAnalysisController {
 		return "head/store/franchiseSalesAnalysis";
 	} 
 	
+
+
+
+
+
+	
 	@ResponseBody
 	@PreAuthorize("hasRole('ROLE_HEAD')")
 	@RequestMapping(value = "/selectChartData.do", produces = "application/json;charset=utf-8")
