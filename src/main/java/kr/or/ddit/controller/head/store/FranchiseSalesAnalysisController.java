@@ -65,6 +65,10 @@ public class FranchiseSalesAnalysisController {
 	
 
 
+
+
+	
+
 	
 	@ResponseBody
 	@PreAuthorize("hasRole('ROLE_HEAD')")
