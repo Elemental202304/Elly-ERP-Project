@@ -63,8 +63,6 @@ public class FranchiseSalesAnalysisController {
 		return "head/store/franchiseSalesAnalysis";
 	} 
 	
-
-
 	
 	@ResponseBody
 	@PreAuthorize("hasRole('ROLE_HEAD')")
