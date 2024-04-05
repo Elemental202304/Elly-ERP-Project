@@ -17,6 +17,7 @@ public class HeadInquiryVO {
 	private String inqryTtl;
 	private String inqryCn;
 	private Date inqryYmd;
+	private String testString;
 	private String inqryYn;
 	private String tableName;
 	
@@ -27,6 +28,9 @@ public class HeadInquiryVO {
 	private Integer[] delInqNo;
 	private MultipartFile[] boFile;
 	private List<AttachVO> inqFileList;
+	
+
+
 	
 	public void setBoFile(MultipartFile[] boFile) {
 		this.boFile = boFile;
