@@ -17,6 +17,7 @@ public class HeadInquiryVO {
 	private String inqryTtl;
 	private String inqryCn;
 	private Date inqryYmd;
+	private String testString;
 	private String inqryYn;
 	private String tableName;
 	

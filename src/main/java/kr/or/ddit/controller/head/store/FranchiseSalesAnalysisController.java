@@ -63,19 +63,6 @@ public class FranchiseSalesAnalysisController {
 		return "head/store/franchiseSalesAnalysis";
 	} 
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 	
 	@ResponseBody
@@ -93,6 +80,7 @@ public class FranchiseSalesAnalysisController {
 		log.debug("ajax로 보내준 frcsName 값 -> {}", fsaVO.getFrcsName().toString());
 		log.debug("ajax로 보내준 curMonth 값 -> {}", fsaVO.getCurMonth());
 		log.debug("ajax로 보내준 year 값 -> {}", fsaVO.getYear());
+		log.debug("ajax로 보내준 year 값 -> {}", fsaVO.getCurMonth());
 		
 		FranchiseSalesAnalysisVO dataList = service.selectAllPrice(fsaVO);
 		
