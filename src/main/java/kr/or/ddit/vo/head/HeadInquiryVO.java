@@ -12,6 +12,7 @@ import lombok.Data;
 
 @Data
 public class HeadInquiryVO {
+	
 	private String inqryNo;
 	private String frcsId;
 	private String inqryTtl;
@@ -23,15 +24,14 @@ public class HeadInquiryVO {
 	
 	private String ansContent;
 	private Date ansRegdate;
-	private String ansId;                                                                                                                                                                                                                                                                                                                                                                                                                                
-	
+	private String ansId;    
+
 	private Integer[] delInqNo;
 	private MultipartFile[] boFile;
 	private List<AttachVO> inqFileList;
-	
 
 
-	
+
 	public void setBoFile(MultipartFile[] boFile) {
 		this.boFile = boFile;
 		if(boFile != null) {
